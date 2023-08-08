@@ -1,0 +1,34 @@
+* xos-website
+Welcome to =xos-website=! This project provides a dynamic web interface that adapts its theme based on your system's color settings. If you love a consistent visual experience across your devices, you're in the right place.
+
+** Features
+- 🎨 Dynamic Theme:: Automatically fetches and applies your system's color theme.
+- ⚡ Lightweight:: Designed with simplicity in mind, ensuring fast load times.
+- 🔄 Live Updates:: Instantly see changes as you tweak your system's colors.
+
+
+** Setup
+For xos Users no setup is needed simply:
+
+    =git clone https://github.com/laluxx/xos-website=
+    =cd xos-website=
+    =open main.html=
+
+For Arch Linux Users:
+
+=yay -S python-flask python-watchdog=
+
+Then:
+
+    =git clone https://github.com/laluxx/xos-website=
+    =cd xos-website=
+    =./server=
+the server need to be running to fetch colors from =~/.cache/wal/color=
+
+** Contributing
+We welcome your contributions! Whether you're reporting a bug, suggesting a feature, or making a pull request – all input is valuable. Check out [[file:CONTRIBUTING.org][CONTRIBUTING.org]] for more details on contributing.
+
+** License
+This project is under the [[file:LICENSE][MIT License]]. Feel free to use, modify, and distribute as you wish.
+
+Thank you for choosing =xos-website=! 🚀
