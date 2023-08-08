@@ -1,9 +1,8 @@
+/* Import hardcoded themes */
 @import url('themes.css');
 
-
-
+/* Global Styles */
 body {
-    /* background-image: var(--wallpaper); */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -17,32 +16,28 @@ header, main, footer {
     padding: 20px;
     border-radius: 5px;
     background: var(--color0);
-    box-shadow: 4px 4px 0 var(--color2);
+    /* box-shadow: 4px 4px 0 var(--color2); */
 }
 
-
-
-/* Blocky Navbar */
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     gap: 24px;
-    background-color: var(--color0); /* Base background color */
-    border-radius: 5px;
+    background-color: var(--color0);
 }
-
 
 nav li {
     display: inline-block;
     margin: 10px;
-    padding: 10px 20px;  /* Increased padding for a more blocky look */
+    padding: 10px 20px;
     border-radius: 5px;
-    transition: transform 0.2s ease; /* Add a little effect on hover */
+    transition: transform 0.2s ease;
 }
 
-/* Assign individual colors to each nav link */
+/* Color assignment for navigation items */
 nav li:nth-child(1) { background-color: var(--color1); }
 nav li:nth-child(2) { background-color: var(--color2); }
 nav li:nth-child(3) { background-color: var(--color3); }
@@ -51,28 +46,19 @@ nav li:nth-child(5) { background-color: var(--color5); }
 nav li:nth-child(6) { background-color: var(--color6); }
 
 nav a {
-    color: var(--foreground); /* Using the foreground color for text */
+    color: var(--foreground);
     transition: color 0.3s ease;
 }
 
 nav li:hover {
-    transform: translateY(-5px); /* Lift the block a little on hover */
+    transform: translateY(-5px);
 }
 
 nav a:hover {
-    color: var(--background); /* Change text color on hover for contrast */
+    color: var(--background);
 }
 
-
-
-
-
-
-
-
-
-
-
+/* Main Content Styles */
 main section {
     margin-top: 20px;
     padding: 20px;
@@ -103,14 +89,10 @@ button:hover {
     transform: scale(1.05);
 }
 
+/* Footer Styles */
 footer {
     background-color: var(--color9);
 }
-
-header {
-    box-shadow: none;
-}
-
 
 footer ul {
     list-style: none;
@@ -136,10 +118,164 @@ footer a:hover {
     background-color: var(--color11);
 }
 
-/* Responsive design considerations */
+/* Responsive Styles */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         gap: 12px;
     }
 }
+
+
+
+
+
+
+
+
+
+/* @import url('themes.css'); */
+
+
+
+/* body { */
+/*     /\* background-image: var(--wallpaper); *\/ */
+/*     font-family: 'Arial', sans-serif; */
+/*     margin: 0; */
+/*     padding: 0; */
+/*     background-color: var(--background); */
+/*     color: var(--foreground); */
+/*     transition: background-color 0.3s ease; */
+/* } */
+
+/* header, main, footer { */
+/*     margin: 20px; */
+/*     padding: 20px; */
+/*     border-radius: 5px; */
+/*     background: var(--color0); */
+/*     box-shadow: 4px 4px 0 var(--color2); */
+/* } */
+
+
+
+/* /\* Blocky Navbar *\/ */
+/* nav ul { */
+/*     list-style: none; */
+/*     padding: 0; */
+/*     display: flex; */
+/*     justify-content: center; */
+/*     gap: 24px; */
+/*     background-color: var(--color0); /\* Base background color *\/ */
+/*     border-radius: 5px; */
+/* } */
+
+
+/* nav li { */
+/*     display: inline-block; */
+/*     margin: 10px; */
+/*     padding: 10px 20px;  /\* Increased padding for a more blocky look *\/ */
+/*     border-radius: 5px; */
+/*     transition: transform 0.2s ease; /\* Add a little effect on hover *\/ */
+/* } */
+
+/* /\* Assign individual colors to each nav link *\/ */
+/* nav li:nth-child(1) { background-color: var(--color1); } */
+/* nav li:nth-child(2) { background-color: var(--color2); } */
+/* nav li:nth-child(3) { background-color: var(--color3); } */
+/* nav li:nth-child(4) { background-color: var(--color4); } */
+/* nav li:nth-child(5) { background-color: var(--color5); } */
+/* nav li:nth-child(6) { background-color: var(--color6); } */
+
+/* nav a { */
+/*     color: var(--foreground); /\* Using the foreground color for text *\/ */
+/*     transition: color 0.3s ease; */
+/* } */
+
+/* nav li:hover { */
+/*     transform: translateY(-5px); /\* Lift the block a little on hover *\/ */
+/* } */
+
+/* nav a:hover { */
+/*     color: var(--background); /\* Change text color on hover for contrast *\/ */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+/* main section { */
+/*     margin-top: 20px; */
+/*     padding: 20px; */
+/*     background: var(--color4); */
+/*     border-radius: 5px; */
+/*     box-shadow: 4px 4px 0 var(--color5); */
+/* } */
+
+/* .button-group { */
+/*     display: flex; */
+/*     gap: 16px; */
+/*     margin-bottom: 32px; */
+/* } */
+
+/* button { */
+/*     background-color: var(--color6); */
+/*     border: none; */
+/*     padding: 12px 24px; */
+/*     color: var(--foreground); */
+/*     border-radius: 4px; */
+/*     cursor: pointer; */
+/*     transition: background-color 0.3s ease, transform 0.2s ease; */
+/*     box-shadow: 4px 4px 0 var(--color7); */
+/* } */
+
+/* button:hover { */
+/*     background-color: var(--color8); */
+/*     transform: scale(1.05); */
+/* } */
+
+/* footer { */
+/*     background-color: var(--color9); */
+/* } */
+
+/* header { */
+/*     box-shadow: none; */
+/* } */
+
+
+/* footer ul { */
+/*     list-style: none; */
+/*     padding: 0; */
+/*     display: flex; */
+/*     justify-content: center; */
+/*     gap: 24px; */
+/* } */
+
+/* footer li { */
+/*     margin: 10px; */
+/*     padding: 10px; */
+/*     background-color: var(--color10); */
+/*     border-radius: 5px; */
+/* } */
+
+/* footer a { */
+/*     color: var(--foreground); */
+/*     transition: background-color 0.3s ease; */
+/* } */
+
+/* footer a:hover { */
+/*     background-color: var(--color11); */
+/* } */
+
+/* /\* Responsive design considerations *\/ */
+/* @media (max-width: 768px) { */
+/*     nav ul { */
+/*         flex-direction: column; */
+/*         gap: 12px; */
+/*     } */
+/* } */
