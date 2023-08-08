@@ -1,0 +1,235 @@
+/* Variables for theme-rebecca */
+.theme-rebecca {
+    --wallpaper: url("/images/wallpaper-rebecca.png");
+
+    /* Special */
+    --background: #1b1c2d;
+    --foreground: #e5d5d5;
+    --cursor: #e5d5d5;
+
+    /* Colors */
+    --color0: #1b1c2d;
+    --color1: #7878A8;
+    --color2: #9969A1;
+    --color3: #D579BB;
+    --color4: #6392A3;
+    --color5: #48E9B1;
+    --color6: #969DB0;
+    --color7: #e5d5d5;
+    --color8: #a09595;
+    --color9: #7878A8;
+    --color10: #9969A1;
+    --color11: #D579BB;
+    --color12: #6392A3;
+    --color13: #48E9B1;
+    --color14: #969DB0;
+    --color15: #e5d5d5;
+}
+
+
+.theme-doomone {
+    --wallpaper: url("/home/l/xos/wallpapers/static/kraken/rebecca-base16_adventuretime_Kraken.png");
+
+    /* Special */
+    --background: #282C34;
+    --foreground: #BBC2CF;
+    --cursor: #BBC2CF;
+
+    /* Colors */
+    --color0: #282C34;
+    --color1: #FF6C6B;
+    --color2: #98BE65;
+    --color3: #ECBE7B;
+    --color4: #51AFEF;
+    --color5: #DCAEEA;
+    --color6: #C678DD;
+    --color7: #BBC2CF;
+    --color8: #5B6268;
+    --color9: #FF6C6B;
+    --color10: #98BE65;
+    --color11: #ECBE7B;
+    --color12: #51AFEF;
+    --color13: #DCAEEA;
+    --color14: #C678DD;
+    --color15: #BBC2CF;
+}
+
+
+.theme-wildcherry {
+    --wallpaper: url("/home/l/xos/wallpapers/static/wildcherry_adventuretime_Kraken.png");
+
+    /* Special */
+    --background: #000507;
+    --foreground: #acbbc7;
+    --cursor: #acbbc7;
+
+    /* Colors */
+    --color0: #000507;
+    --color1: #66578A;
+    --color2: #6E5F95;
+    --color3: #7B6DA9;
+    --color4: #AA6F99;
+    --color5: #8370AF;
+    --color6: #B375A8;
+    --color7: #acbbc7;
+    --color8: #78828b;
+    --color9: #66578A;
+    --color10: #6E5F95;
+    --color11: #7B6DA9;
+    --color12: #AA6F99;
+    --color13: #8370AF;
+    --color14: #B375A8;
+    --color15: #acbbc7;
+
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    /* background-image: var(--wallpaper); */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--foreground);
+    transition: background-color 0.3s ease;
+}
+
+header, main, footer {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--color0);
+    box-shadow: 4px 4px 0 var(--color2);
+}
+
+
+
+/* Blocky Navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: var(--color0); /* Base background color */
+    border-radius: 5px;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;  /* Increased padding for a more blocky look */
+    border-radius: 5px;
+    transition: transform 0.2s ease; /* Add a little effect on hover */
+}
+
+/* Assign individual colors to each nav link */
+nav li:nth-child(1) { background-color: var(--color1); }
+nav li:nth-child(2) { background-color: var(--color2); }
+nav li:nth-child(3) { background-color: var(--color3); }
+nav li:nth-child(4) { background-color: var(--color4); }
+nav li:nth-child(5) { background-color: var(--color5); }
+nav li:nth-child(6) { background-color: var(--color6); }
+
+nav a {
+    color: var(--foreground); /* Using the foreground color for text */
+    transition: color 0.3s ease;
+}
+
+nav li:hover {
+    transform: translateY(-5px); /* Lift the block a little on hover */
+}
+
+nav a:hover {
+    color: var(--background); /* Change text color on hover for contrast */
+}
+
+
+
+
+
+
+
+
+
+
+
+main section {
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--color4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 var(--color5);
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+button {
+    background-color: var(--color6);
+    border: none;
+    padding: 12px 24px;
+    color: var(--foreground);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 4px 4px 0 var(--color7);
+}
+
+button:hover {
+    background-color: var(--color8);
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--color9);
+}
+
+header {
+    box-shadow: none;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+footer li {
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--color10);
+    border-radius: 5px;
+}
+
+footer a {
+    color: var(--foreground);
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: var(--color11);
+}
+
+/* Responsive design considerations */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
