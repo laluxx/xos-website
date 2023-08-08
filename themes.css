@@ -1,0 +1,112 @@
+
+.theme-rebecca {
+    --wallpaper: url("/images/wallpaper-rebecca.png");
+
+    /* Special */
+    --background: #1b1c2d;
+    --foreground: #e5d5d5;
+    --cursor: #e5d5d5;
+
+    /* Colors */
+    --color0: #1b1c2d;
+    --color1: #7878A8;
+    --color2: #9969A1;
+    --color3: #D579BB;
+    --color4: #6392A3;
+    --color5: #48E9B1;
+    --color6: #969DB0;
+    --color7: #e5d5d5;
+    --color8: #a09595;
+    --color9: #7878A8;
+    --color10: #9969A1;
+    --color11: #D579BB;
+    --color12: #6392A3;
+    --color13: #48E9B1;
+    --color14: #969DB0;
+    --color15: #e5d5d5;
+}
+
+
+.theme-doomone {
+    --wallpaper: url("/home/l/xos/wallpapers/static/kraken/rebecca-base16_adventuretime_Kraken.png");
+
+    /* Special */
+    --background: #282C34;
+    --foreground: #BBC2CF;
+    --cursor: #BBC2CF;
+
+    /* Colors */
+    --color0: #282C34;
+    --color1: #FF6C6B;
+    --color2: #98BE65;
+    --color3: #ECBE7B;
+    --color4: #51AFEF;
+    --color5: #DCAEEA;
+    --color6: #C678DD;
+    --color7: #BBC2CF;
+    --color8: #5B6268;
+    --color9: #FF6C6B;
+    --color10: #98BE65;
+    --color11: #ECBE7B;
+    --color12: #51AFEF;
+    --color13: #DCAEEA;
+    --color14: #C678DD;
+    --color15: #BBC2CF;
+}
+
+
+.theme-wildcherry {
+    --wallpaper: url("/home/l/xos/wallpapers/static/wildcherry_adventuretime_Kraken.png");
+
+    /* Special */
+    --background: #000507;
+    --foreground: #acbbc7;
+    --cursor: #acbbc7;
+
+    /* Colors */
+    --color0: #000507;
+    --color1: #66578A;
+    --color2: #6E5F95;
+    --color3: #7B6DA9;
+    --color4: #AA6F99;
+    --color5: #8370AF;
+    --color6: #B375A8;
+    --color7: #acbbc7;
+    --color8: #78828b;
+    --color9: #66578A;
+    --color10: #6E5F95;
+    --color11: #7B6DA9;
+    --color12: #AA6F99;
+    --color13: #8370AF;
+    --color14: #B375A8;
+    --color15: #acbbc7;
+
+}
+
+
+.theme-spacemacs{
+    --wallpaper: url("/home/l/xos/wallpapers/favourites/spacemacs-base16_adventuretime_Kraken.png");
+
+    /* Special */
+    --background: #121313;
+    --foreground: #aebcc7;
+    --cursor: #aebcc7;
+
+    /* Colors */
+    --color0: #121313;
+    --color1: #6A6672;
+    --color2: #E14437;
+    --color3: #955459;
+    --color4: #758D63;
+    --color5: #C69E68;
+    --color6: #6B7186;
+    --color7: #aebcc7;
+    --color8: #79838b;
+    --color9: #6A6672;
+    --color10: #E14437;
+    --color11: #955459;
+    --color12: #758D63;
+    --color13: #C69E68;
+    --color14: #6B7186;
+    --color15: #aebcc7;
+}
